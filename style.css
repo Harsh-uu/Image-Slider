@@ -25,6 +25,7 @@ body{
   width: 500%;
   height: 500px;
   display: flex;
+  position: relative;
 }
 
 .slides input{
@@ -114,4 +115,34 @@ body{
 
 #radio:checked ~ .navigation-auto .auto-btn4{
   background: #40D3DC;
+}
+
+.button1{
+  position: absolute;
+  display: grid;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  top: 46%;
+  left: 3rem;
+  color: #40D3DC;
+  font-size: 3rem;
+  place-items: center;
+  font-weight: bolder;
+  border: 1px solid #40D3DC;
+}
+
+.button2{
+  position: absolute;
+  display: grid;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  top: 46%;
+  left: 17.3%;
+  color: #40D3DC;
+  font-size: 3rem;
+  place-items: center;
+  font-weight: bolder;
+  border: 1px solid #40D3DC;
 }
